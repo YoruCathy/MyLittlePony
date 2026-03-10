@@ -6,3 +6,11 @@
 __pycache__/
 # venv
 venv/
+# egg-info
+*.egg-info/
+# mypy
+.mypy_cache/
+# pytest
+.pytest_cache/
+# typed
+*.pyi
