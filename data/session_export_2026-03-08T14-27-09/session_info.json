@@ -1,0 +1,265 @@
+{
+    "appVersion": "1.0",
+    "appVersionCode": 1,
+    "androidSdkVersion": 36,
+    "deviceModel": "Pixel 6a",
+    "deviceManufacturer": "Google",
+    "timestampMs": 1772994433689,
+    "startTimeMs": 1772992409214,
+    "endTimeMs": 1772994433689,
+    "durationMs": 2024475,
+    "task": {
+        "id": "9b40f3f8-8b4d-4043-bc78-22594b8e1e78",
+        "name": "Horse",
+        "description": "Test\n",
+        "stickies": [
+            {
+                "segment": "hand_L",
+                "placement": null,
+                "type": "SENSING"
+            },
+            {
+                "segment": "head",
+                "placement": null,
+                "type": "SENSING"
+            },
+            {
+                "segment": "forearm_L",
+                "placement": null,
+                "type": "SENSING"
+            },
+            {
+                "segment": "upper_torso",
+                "placement": null,
+                "type": "SENSING"
+            }
+        ],
+        "joints": [],
+        "segments": [],
+        "metrics": [
+            "hand_L.pitch",
+            "hand_L.roll",
+            "hand_L.angular_velocity",
+            "hand_L.linear_acceleration",
+            "head.pitch",
+            "head.roll",
+            "head.angular_velocity",
+            "head.linear_acceleration",
+            "forearm_L.pitch",
+            "forearm_L.roll",
+            "forearm_L.angular_velocity",
+            "forearm_L.linear_acceleration",
+            "upper_torso.pitch",
+            "upper_torso.roll",
+            "upper_torso.angular_velocity",
+            "upper_torso.linear_acceleration"
+        ],
+        "metricConfigs": [
+            {
+                "type": "SEGMENT",
+                "targetId": "hand_L",
+                "minThreshold": null,
+                "maxThreshold": null,
+                "includeVelocity": false,
+                "hostStickyId": null,
+                "includedSubMetrics": [
+                    "pitch",
+                    "roll",
+                    "angular_velocity",
+                    "linear_acceleration"
+                ]
+            },
+            {
+                "type": "SEGMENT",
+                "targetId": "head",
+                "minThreshold": null,
+                "maxThreshold": null,
+                "includeVelocity": false,
+                "hostStickyId": null,
+                "includedSubMetrics": [
+                    "pitch",
+                    "roll",
+                    "angular_velocity",
+                    "linear_acceleration"
+                ]
+            },
+            {
+                "type": "SEGMENT",
+                "targetId": "forearm_L",
+                "minThreshold": null,
+                "maxThreshold": null,
+                "includeVelocity": false,
+                "hostStickyId": null,
+                "includedSubMetrics": [
+                    "pitch",
+                    "roll",
+                    "angular_velocity",
+                    "linear_acceleration"
+                ]
+            },
+            {
+                "type": "SEGMENT",
+                "targetId": "upper_torso",
+                "minThreshold": null,
+                "maxThreshold": null,
+                "includeVelocity": false,
+                "hostStickyId": null,
+                "includedSubMetrics": [
+                    "pitch",
+                    "roll",
+                    "angular_velocity",
+                    "linear_acceleration"
+                ]
+            }
+        ],
+        "calibration": {
+            "poses": [
+                {
+                    "name": "calibration_pose",
+                    "instruction": "Hold a neutral position",
+                    "durationSeconds": 3
+                }
+            ],
+            "tactileBaselines": null
+        },
+        "tactilePatches": [],
+        "debugOnly": false
+    },
+    "policy": {
+        "id": "bfca23a0-36be-40c9-873e-6b14ef838243",
+        "taskId": "9b40f3f8-8b4d-4043-bc78-22594b8e1e78",
+        "name": "trot",
+        "description": "test",
+        "patterns": [],
+        "targets": [],
+        "parameters": [],
+        "states": [],
+        "rules": []
+    },
+    "deviceMapping": {
+        "devicesByStickyId": {
+            "head": {
+                "deviceAddress": "C2:88:3D:5A:91:66",
+                "deviceId": "STICKY-SENSE-5A9166",
+                "assignedStickyId": "head",
+                "type": "SENSING"
+            },
+            "forearm_L": {
+                "deviceAddress": "C1:A2:19:12:F9:25",
+                "deviceId": "STICKY-SENSE-12F925",
+                "assignedStickyId": "forearm_L",
+                "type": "SENSING"
+            },
+            "head(motor)": {
+                "deviceAddress": "CA:7C:DC:56:B3:A1",
+                "deviceId": "STICKY-FB-56B3A1",
+                "assignedStickyId": "head(motor)",
+                "type": "FEEDBACK"
+            },
+            "hand_L": {
+                "deviceAddress": "F1:03:9A:F7:80:8E",
+                "deviceId": "STICKY-SENSE-F7808E",
+                "assignedStickyId": "hand_L",
+                "type": "SENSING"
+            },
+            "upper_torso": {
+                "deviceAddress": "DF:2F:E5:19:34:E0",
+                "deviceId": "STICKY-SENSE-1934E0",
+                "assignedStickyId": "upper_torso",
+                "type": "SENSING"
+            }
+        }
+    },
+    "calibrationData": {
+        "poseCalibrations": {
+            "calibration_pose": {
+                "head": {
+                    "orientation": {
+                        "w": 0.48510745,
+                        "x": -0.72206545,
+                        "y": 0.27842715,
+                        "z": -0.40714937
+                    },
+                    "gravityInSensor": {
+                        "x": -0.3178428,
+                        "y": 0.92728156,
+                        "z": 0.1978004
+                    },
+                    "skinNormal": {
+                        "x": 0.0,
+                        "y": 1.0,
+                        "z": 0.0
+                    }
+                },
+                "forearm_L": {
+                    "orientation": {
+                        "w": 0.5455085,
+                        "x": -0.5097802,
+                        "y": 0.48250467,
+                        "z": -0.45796746
+                    },
+                    "gravityInSensor": {
+                        "x": 0.05949527,
+                        "y": 0.9981218,
+                        "z": -0.014626741
+                    },
+                    "skinNormal": {
+                        "x": 0.0,
+                        "y": 1.0,
+                        "z": 0.0
+                    }
+                },
+                "hand_L": {
+                    "orientation": {
+                        "w": 0.54186434,
+                        "x": -0.48302853,
+                        "y": 0.3758013,
+                        "z": -0.57605577
+                    },
+                    "gravityInSensor": {
+                        "x": -0.14923611,
+                        "y": 0.9564369,
+                        "z": -0.25091362
+                    },
+                    "skinNormal": {
+                        "x": 0.0,
+                        "y": 1.0,
+                        "z": 0.0
+                    }
+                },
+                "upper_torso": {
+                    "orientation": {
+                        "w": 0.1473457,
+                        "x": 0.9529303,
+                        "y": 0.15544608,
+                        "z": -0.21459228
+                    },
+                    "gravityInSensor": {
+                        "x": 0.45479158,
+                        "y": -0.21410531,
+                        "z": 0.8644792
+                    },
+                    "skinNormal": {
+                        "x": 0.0,
+                        "y": 1.0,
+                        "z": 0.0
+                    }
+                }
+            }
+        },
+        "jointAxes": {},
+        "jointAxesDistal": {},
+        "jointHeadingOffsets": {},
+        "sensorToSegmentQuats": {},
+        "jointBetaTargets": {},
+        "tactileBaselines": {},
+        "tactileRotations": {},
+        "tactileFlips": {},
+        "bodyFrameAxes": {},
+        "calibratedAt": 1772991243026
+    },
+    "parameterValues": {},
+    "ruleTargetAssignments": [],
+    "rulePatternOverrides": {},
+    "tactileContactThreshold": 100.0
+}
